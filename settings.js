@@ -11,12 +11,12 @@ const chalk = require('chalk')
 global.lol = '' // https://api.lolhuman.xyz
 global.xzn = '' // https://xnz.wtf
 /* ~~~~~~~~~ SETTINGS OWNER ~~~~~~~~~ */
-global.numberowner = '6289513081052' // Owner Utama
-global.owner = ['6289513081052', '6283838530788'] // Owner Lainnya
-global.namaowner = 'Arxzy お-ぎ' // Nama Owner
-global.premium = ["6289513081052"] // Premium User
+global.numberowner = '84876459724' // Owner Utama
+global.owner = ['84876459724', '6282287750102'] // Owner Lainnya
+global.namaowner = 'Alpin お-ぎ' // Nama Owner
+global.premium = ["84876459724"] // Premium User
 /* ~~~~~~~~~ SETTINGS BOT ~~~~~~~~~ */
-global.namabot = 'Arxzy-MD' // NickBot
+global.namabot = 'Pin-MD' // NickBot
 global.typemenu = 'v2' 
 // 'v1' > 'v2' > 'v3' > 'v4'
 // 'v1' Image ORI!
@@ -27,8 +27,8 @@ global.autoread = false // ReadChat
 global.autobio = false // AutoBio
 global.autoblok212 = true // AutoBlock Nomer +212
 global.onlyindo = false  // AutoBlock Selain Nomer Indo
-global.packname = 'Created By' // Watermark Sticker
-global.author = 'Arxzy ダ' // Watermark Sticker
+global.packname = 'Follow' // Watermark Sticker
+global.author = '@404.finzx ダ' // Watermark Sticker
 /* ~~~~~~~~~ MESSAGES ~~~~~~~~~ */
 global.mess = {
     done: 'Done ✅',
@@ -45,7 +45,7 @@ global.mess = {
 global.thumb = fs.readFileSync('./media/quoted.jpg')
 global.menu = fs.readFileSync('./media/menu.jpg')
 /* ~~~~~~~~~ EDITS LINK ~~~~~~~~~ */
-global.link = 'https://chat.whatsapp.com/LfBvDxQujrLHihSRI6TCIZ'
+global.link = 'https://chat.whatsapp.com/JOzNejO4M8mFQ1g7gMpcVr'
 /* ~~~~~~~~~ END SYSTEM ~~~~~~~~~ */
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
